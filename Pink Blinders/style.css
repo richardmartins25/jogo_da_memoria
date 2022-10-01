@@ -1,4 +1,15 @@
 .box1{ 
+    
+    position:relative;
+    background-color: rgb(247, 8, 8);
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.box2{ 
+    left: 225px;
+    bottom: 250px;
     position: relative;
     background-color: black;
     width: 200px;
@@ -6,32 +17,30 @@
     border-radius: 40px;
 }
 
-.box2{ 
-    position: relative;
-    background-color: rgb(21, 10, 233);
-    width: 200px;
-    height: 250px;
-    border-radius: 40px;
-}
-
 .box3{ 
+    left: 450px;
+    bottom: 500px;
     position: relative;
-    background-color: rgb(241, 26, 26);
+    background-color: black;
     width: 200px;
     height: 250px;
     border-radius: 40px;
 }
 
-.box4{  
+.box4{ 
+    left: 675px;
+    bottom: 750px;
     position: relative;
-    background-color: rgb(8, 253, 77);
+    background-color: black;
     width: 200px;
     height: 250px;
     border-radius: 40px;
 }
 
-.box5{ 
-    position: relative;
+.box5{
+     left: 900px;
+    bottom: 1000px;
+    position:relative;
     background-color: black;
     width: 200px;
     height: 250px;
@@ -39,6 +48,8 @@
 }
 
 .box6{ 
+
+    bottom: 975px;
     position: relative;
     background-color: black;
     width: 200px;
@@ -47,6 +58,8 @@
 }
 
 .box7{ 
+    left: 225px;
+    bottom: 1225px;
     position: relative;
     background-color: black;
     width: 200px;
@@ -55,6 +68,8 @@
 }
 
 .box8{ 
+    left: 450px;
+    bottom: 1475px;
     position: relative;
     background-color: black;
     width: 200px;
@@ -62,25 +77,27 @@
     border-radius: 40px;
 }
 
-.box9{ 
-    position: relative;
-    background-color: black;
-    width: 200px;
-    height: 250px;
-    border-radius: 40px;
-}
-
-.box10 
-{
+.box9{
+    left: 675px;
+    bottom: 1725px;
     position:relative;
     background-color: black;
     width: 200px;
     height: 250px;
     border-radius: 40px;
 }
+.box10{ 
+    left: 900px;
+    bottom: 1975px;
+    position: relative;
+    background-color: rgb(43, 13, 237);
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+}
 
 .container{
-position: absolute;
+position: relative;
 width: 200px;
 height: 200px;
 border: 100px;
